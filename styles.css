@@ -56,4 +56,46 @@ form .input-box input{
     width: 100%;
     outline: none;
     border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+}
+.input-box input:focus,
+.input-box input:valid{
+    border-color: #4070f4;
+}
+
+form .policy{
+    display: flex;
+    align-items: center;
+}
+
+form .policy h3{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.input-box.button input{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #4070f4;
+    border: none;
+    cursor: pointer;
+}
+.input-box.button input:hover{
+    background: #0e4bf1;
+}
+form .text h3{
+    color: #333;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+form .text h3 a{
+    text-decoration: none;
+}
+form .text h3 a:hover{
+    text-decoration: underline;
 }
